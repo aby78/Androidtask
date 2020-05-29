@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //items.add("Second Item");
     }
 
-    //App is about ToDoWork
+    //App is about ToDoWork......
     public void onAddItem(View v) {
         EditText etNewItem = (EditText) findViewById(R.id.etNewItem);
         String itemText = etNewItem.getText().toString();
